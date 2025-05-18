@@ -1,2 +1,2 @@
 # Faviorite-Movie
-Made a site for my favorite movie
+Made a sinteractive website for my favorite movie
