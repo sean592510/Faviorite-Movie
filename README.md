@@ -7,12 +7,11 @@ A dynamic, interactive tribute website dedicated to the iconic anime film *Akira
 ## Features
 
 - **YouTube Bike Slide Video**: Embeds the iconic *Akira* bike slide scene, auto-playing when scrolled into view.
-- **Interactive Slideshow**: Displays five iconic *Akira* scenes with images, captions, navigation buttons, and auto-play (pauses on hover).
+- **Interactive Slideshow**: Displays five iconic *Akira* scenes with images, captions, and auto-play (pauses on hover).
 - **Dynamic Background**: Features an *Akira* poster with a gradient gray overlay that shifts opacity on scroll, maintaining visibility and readability.
-- **Gradient Header**: Black-to-blue gradient with links that transition from black to blue on hover.
+- **Gradient Header**: Black-to-red gradient with links that transition from black to red on hover.
 - **About Section**: 100-word description of *Akira* in Georgia serif font, highlighting its plot and cultural impact.
-- **Audio Player**: Embedded SoundCloud player for thematic music (customizable with *Akira* OST).
-- **Footer**: Includes a witty Kaneda quote and links to watch/rent *Akira* on Amazon Prime Video and Netflix.
+- **Audio Player**: Embedded SoundCloud player for thematic music .
 - **Responsive Design**: Optimized for mobile and desktop, with scaling video and slideshow.
 
 ## Tech Stack
