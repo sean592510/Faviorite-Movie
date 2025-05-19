@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     const slides = document.querySelectorAll('.slide');
-    const prevBtn = document.querySelector('.prev');
-    const nextBtn = document.querySelector('.next');
     let currentSlide = 0;
     let autoPlayInterval = null;
 
@@ -35,15 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
         currentSlide = index;
     }
 
-    function nextSlide() {
-        currentSlide = (currentSlide + 1) % slides.length;
-        showSlide(currentSlide);
-    }
-
-    function prevSlide() {
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-        showSlide(currentSlide);
-    }
 
     
     function startAutoPlay() {
