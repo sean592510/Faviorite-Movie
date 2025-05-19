@@ -3,70 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tribute to Akira (1988) with a slideshow, video, and dynamic design.">
     <title>Favorite Movie - Akira</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Georgia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="TM.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:400,700&family=Georgia&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container" role="main">
         <!-- Header -->
-        <header class="header">
-            <a href="https://www.youtube.com/watch?v=nA8KmHC2Z-g" class="header-link">Trailer</a>
-            <a href="https://en.wikipedia.org/wiki/Akira_(1988_film)" class="header-link">About</a>
+        <header class="header" aria-label="Navigation">
+            <a href="https://www.youtube.com/watch?v=nA8KmHC2Z-g" class="header-link" target="_blank" rel="noopener">Trailer</a>
+            <a href="https://en.wikipedia.org/wiki/Akira_(1988_film)" class="header-link" target="_blank" rel="noopener">About</a>
         </header>
 
         <!-- Bike Slide Video -->
-        <section class="bike-slide">
+        <section class="bike-slide" aria-label="Akira Bike Slide Video">
             <div class="video-container">
-                <iframe width="703" height="378" src="https://www.youtube.com/embed/rubRpPgbY_w" title="Akira 1988 Opening Bike scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-loading" aria-live="polite">Loading video...</div>
+                 <iframe width="703" height="378" src="https://www.youtube.com/embed/rubRpPgbY_w" title="Akira 1988 Opening Bike scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
 
         <!-- Audio Player -->
-        <div class="audio-player">
-           <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/345081317&color=%238e545c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gitcanime" title="Ghost In The Cloud: An Anime Podcast" target="_blank" style="color: #cccccc; text-decoration: none;">Ghost In The Cloud: An Anime Podcast</a> · <a href="https://soundcloud.com/gitcanime/sets/akira-1988-movie-soundtrack" title="Akira 1988 Movie - Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">Akira 1988 Movie - Soundtrack</a>Akira=Kaneda's Theme</div>
-            </div>
-        </div>
+        <section class="audio-player" aria-label="Background Music">
+             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/345081317&color=%238e545c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gitcanime" title="Ghost In The Cloud: An Anime Podcast" target="_blank" style="color: #cccccc; text-decoration: none;">Ghost In The Cloud: An Anime Podcast</a> · <a href="https://soundcloud.com/gitcanime/sets/akira-1988-movie-soundtrack" title="Akira 1988 Movie - Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">Akira 1988 Movie - Soundtrack</a>Akira=Kaneda's Theme</div>
+                 </div>
+        </section>
 
-        <!-- About Akira -->
-        <section class="about">
+       
+        <section class="about" aria-label="About Akira">
             <h2>About Akira</h2>
             <p>Akira (1988), directed by Katsuhiro Otomo, is a seminal cyberpunk anime set in a dystopian Neo-Tokyo, 2019, after World War III. The story follows Shōtarō Kaneda, a biker gang leader, as his friend Tetsuo Shima gains uncontrollable telekinetic powers from a covert government experiment. Renowned for its stunning animation, neon-drenched visuals, and intense action, Akira explores themes of power, corruption, and societal decay. Its iconic bike slide, with Kaneda’s red motorcycle, is a cultural touchstone. Akira revolutionized anime’s global influence, blending raw energy with profound philosophical questions, cementing its legacy as a timeless masterpiece.</p>
         </section>
 
-        <!-- Movie Scenes Slideshow -->
-        <section class="scenes">
+        
+        <section class="scenes" aria-label="Iconic Scenes Slideshow">
             <h2>Iconic Scenes from Akira</h2>
             <div class="slideshow-container">
                 <div class="slide">
-                    <img src="https://i.pinimg.com/originals/c9/76/d2/c976d2511d0c7dc6304bfdbb7c565ff3.gif" alt="Bike Chase Opening">
+                    <img src="https://i.pinimg.com/originals/c9/76/d2/c976d2511d0c7dc6304bfdbb7c565ff3.gif" 
+                         alt="Bike Chase Opening" loading="lazy">
                     <div class="caption">Bike Chase Opening: Kaneda’s gang clashes with the Clowns, ending with Kaneda’s legendary bike slide to dodge Joker.</div>
                 </div>
                 <div class="slide">
-                    <img src="https://media.tenor.com/i7WRjBGy0fUAAAAM/anime-crash.gif" alt="Tetsuo’s Mutation">
-                    <div class="caption">Tetsuo Meets the Chidren that activate akira's power <button class="prev">
+                    <img src="https://media.tenor.com/i7WRjBGy0fUAAAAM/anime-crash.gif" 
+                         alt="Tetsuo’s Mutation" loading="lazy">
+                    <div class="caption">Tetsuo Meets Children that awaken Akira's Abilities</div>
                 </div>
                 <div class="slide">
-                    <img src="https://images.saymedia-content.com/.image/t_share/MTc2MjY0Mjg4NzkyMjI0OTU4/neo-tokyo-is-about-to-explode-akira-1988.jpg" alt="Neo-Tokyo Riots">
-                    <div class="caption">Neo-Tokyo Riots: Neon-lit streets erupt in chaos as protesters face off against police, showcasing societal unrest.>
+                    <img src="https://images.saymedia-content.com/.image/t_share/MTc2MjY0Mjg4NzkyMjI0OTU4/neo-tokyo-is-about-to-explode-akira-1988.jpg" 
+                         alt="Neo-Tokyo Riots" loading="lazy">
+                    <div class="caption">Neo-Tokyo Riots: Neon-lit streets erupt in chaos as protesters face off against police, showcasing societal unrest.</div>
                 </div>
                 <div class="slide">
-                    <img src="https://www.slashfilm.com/img/gallery/the-anime-classic-akira-foresaw-the-2020-tokyo-summer-olympics-and-its-empty-stadium/intro-import.jpg" alt="Olympic Stadium Battle">
+                    <img src="https://www.slashfilm.com/img/gallery/the-anime-classic-akira-foresaw-the-2020-tokyo-summer-olympics-and-its-empty-stadium/intro-import.jpg" 
+                         alt="Olympic Stadium Battle" loading="lazy">
                     <div class="caption">Olympic Stadium Battle: Kaneda battles Tetsuo amidst psychic energy distortions in a climactic showdown.</div>
                 </div>
                 <div class="slide">
-                    <img src="https://media.tenor.com/J4AYBuSgo58AAAAM/akira-tetsuo.gif">Akira’s Awakening: Tetsuo unleashes a cosmic event, echoing Akira’s destructive power with dazzling light effects.</div>
+                    <img src= "https://media.tenor.com/J4AYBuSgo58AAAAM/akira-tetsuo.gif" 
+                         alt="Akira’s Awakening" loading="lazy">
+                    <div class="caption">Akira’s Awakening: Tetsuo unleashes a cosmic event, echoing Akira’s destructive power with dazzling light effects.</div>
+                </div>
+                <button class="prev" aria-label="Previous Slide">❮</button>
+                <button class="next" aria-label="Next Slide">❯</button>
+                <div class="dots" role="navigation" aria-label="Slide Navigation">
+                    <span class="dot" data-slide="0" aria-label="Slide 1"></span>
+                    <span class="dot" data-slide="1" aria-label="Slide 2"></span>
+                    <span class="dot" data-slide="2" aria-label="Slide 3"></span>
+                    <span class="dot" data-slide="3" aria-label="Slide 4"></span>
+                    <span class="dot" data-slide="4" aria-label="Slide 5"></span>
                 </div>
             </div>
         </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p>"Farther the better" — Tetsuo</p>
-            <p>Buy Akira on Bluray</p>
-            
+       
+        <footer class="footer" aria-label="Footer">
+            <p>"Kaneda what the hell is going on?" — Tetsuo</p>
+                        <p>Created by Sean592510</p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="TM.js"></script>
 </body>
 </html>
