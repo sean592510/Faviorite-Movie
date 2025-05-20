@@ -16,9 +16,9 @@ A dynamic, interactive tribute website dedicated to the iconic anime film *Akira
 
 ## Tech Stack
 
-- **HTML**: ~25% of codebase, structures content and media.
-- **CSS**: ~36% of codebase, styles layout, animations, and responsive design.
-- **JavaScript**: ~30% of codebase, powers slideshow, video auto-play, and scroll effects.
+- **HTML**: ~51% of codebase, structures content and media.
+- **CSS**: ~28% of codebase, styles layout, animations, and responsive design.
+- **JavaScript**: ~21% of codebase, powers slideshow, video auto-play, and scroll effects.
 - **External Resources**:
   - Google Fonts (Raleway, Georgia)
   - YouTube IFrame API
