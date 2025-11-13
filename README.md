@@ -1,5 +1,5 @@
 # Faviorite-Movie
-# Website on akira the movie
+# Website on Akira the movie
 
 A dynamic, interactive tribute website dedicated to the iconic anime film *Akira* (1988), built with HTML, CSS, and JavaScript. This project showcases a blend of modern web development techniques, including a YouTube-embedded bike slide video, a slideshow of iconic scenes, and a responsive design with a cyberpunk aesthetic. Designed as a portfolio piece, it demonstrates skills in animation, media integration, and user interactivity.
 
